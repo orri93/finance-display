@@ -12,7 +12,7 @@
 #include "rdd.h"
 
 #define INTERVAL                  5000
-#define DISPLAY_INTERVAL           500
+#define DISPLAY_INTERVAL           450
 
 #define SERIAL_BAUD_RATE          9600
 
