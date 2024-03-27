@@ -27,7 +27,7 @@ size_t fd_format_quote(char* buffer, fd_quote* quote) {
   buffer++;
   len++;
 
-  dtostrf(quote->price, 0, 4, nfb);
+  dtostrf(quote->price, 0, 2, nfb);
   size_t nlen = strlen(nfb);
   strcpy(buffer, nfb);
   buffer += nlen;
