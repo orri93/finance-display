@@ -14,7 +14,7 @@
 #define INTERVAL                  5000
 #define DISPLAY_INTERVAL           450
 
-#define SERIAL_BAUD_RATE          9600
+#define SERIAL_BAUD_RATE        115200
 
 #define BUFFER_SIZE               1024
 
